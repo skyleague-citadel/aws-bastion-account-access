@@ -65,6 +65,7 @@ Resources:
                 - { BastionAccountId: !Ref BastionAccountId }
             Action:
               - "sts:AssumeRole"
+              - "sts:TagSession"
             Condition:
               StringEquals:
                 "sts:ExternalId": !Ref ExternalId
