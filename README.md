@@ -1,4 +1,4 @@
-# Client Access Template
+# SkyLeague Bastion Account Access Template
 
 Template to allow SkyLeague team secure access to your AWS Organization / Accounts.
 
